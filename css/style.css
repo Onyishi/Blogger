@@ -9,13 +9,22 @@ html, body{
 a {
     text-decoration: none;
 }
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
 /* ................navbar.............*/
-.nav{
-    background: white;
+.nav {
+    background: rgb(231, 216, 216);
     padding: 0 2rem;
     height: 0rem;
-    min-height: 10vh;
+    min-height: 20vh;
     overflow: hidden;
+}
+
+.nav.nav-menu{
+    justify-content: space-between;
 }
 
 .nav.nav-brand a{
